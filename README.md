@@ -54,4 +54,36 @@ scene_360_2|2023-04-07|753.7MB|122s|30°C|Rigid_body_2, multi-view|[Rosbag](http
 scene_360_3|2023-04-07|1.3GB|220s|20°C|Rigid_body_3, rotate|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/EQCE0kGp3vlFkEUd_u0vNsABp70WDJzR03iy8xhMtHm00A?e=UNpkAs)|[GT](https://sjtueducn-my.sharepoint.com/:x:/g/personal/coulson_tx_sjtu_edu_cn/EbCzOv4MLN9HkBJDQQ_G4fkBwnPtHvSQ2i3UyTjPfedwSQ?e=oB049s)
 scene_360_4|2023-04-07|755.6MB|123s|20°C|Rigid_body_3, multi-view|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/EeV9MXeaNNlOhLILP0RBpJEBXnqixkZ9u48jAZvjIWKaiw?e=dabqDs)|[GT](https://sjtueducn-my.sharepoint.com/:x:/g/personal/coulson_tx_sjtu_edu_cn/EUAaXjfMHGtKkjHL0xfoGXUBACahA3Bzwmmb6Abf5toCQg?e=8rbWev)
 
+#### 1.3.4 2023-04-26
+In this data collection, we once again shot a cup containing three different temperature water by rotating 360 degrees around it. However, it's worth noting that this time, when creating the rigid body, the position of the rigid body coordinate system and the camera coordinate system were rotated 180 degrees by placing the camera lens facing the back of the motion capture room screen. This made it more convenient for us to handle the conversion between the camera coordinate system and the rigid body coordinate system, and to avoid situations where markers fell during the shooting process and required the rigid body to be re-established.
+water_scene_360_1|2023-04-26|1.7GB|283s|Very hot|Rigid_body_1, two views|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/Eaw0uFPLYvNNvsbbfzK7Vh0BnkmyHd5m_NDTGjijoMCTTw?e=4Dj8fX)|[GT](https://sjtueducn-my.sharepoint.com/:x:/g/personal/coulson_tx_sjtu_edu_cn/EVYGJ9kqn-NHgN41nr7ciFQBKlZn16koUq6rhal5-CspGw?e=Wx3oUX)
+water_scene_360_2|2023-04-26|2.2GB|368s|Hot|Rigid_body_1, two views|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/Ed9c-mQ0oFJCnX2WtGfPpSkBdWpe2wbOEQr2Hf7eKBxNOA?e=Hq42ee)|[GT](https://sjtueducn-my.sharepoint.com/:x:/g/personal/coulson_tx_sjtu_edu_cn/ERVJjAF3K8pPoMM5gF_MZCQBXO538gxZY2FIwTsOHVW-Sw?e=5k8o7l)
+water_scene_360_3|2023-04-26|1.9GB|312s|Warm|Rigid_body_1, two views|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/EdwjLhGs8ZBEhpIGfKy8154B4kS5zUJI2V1Eb0h5gziXew?e=EE9Pgd)|[GT](https://sjtueducn-my.sharepoint.com/:x:/g/personal/coulson_tx_sjtu_edu_cn/EaWRh_EMBl5IuaqbAI4S5-cB4MQHydfft-vxgQJgjy8l1Q?e=9lcemg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
