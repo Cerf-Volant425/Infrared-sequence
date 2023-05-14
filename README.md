@@ -62,10 +62,17 @@ water_scene_360_1|2023-04-26|1.7GB|283s|Very hot|Rigid_body_1, two views|[Rosbag
 water_scene_360_2|2023-04-26|2.2GB|368s|Hot|Rigid_body_1, two views|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/Ed9c-mQ0oFJCnX2WtGfPpSkBdWpe2wbOEQr2Hf7eKBxNOA?e=Hq42ee)|[GT](https://sjtueducn-my.sharepoint.com/:x:/g/personal/coulson_tx_sjtu_edu_cn/ERVJjAF3K8pPoMM5gF_MZCQBXO538gxZY2FIwTsOHVW-Sw?e=5k8o7l)
 water_scene_360_3|2023-04-26|1.9GB|312s|Warm|Rigid_body_1, two views|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/EdwjLhGs8ZBEhpIGfKy8154B4kS5zUJI2V1Eb0h5gziXew?e=EE9Pgd)|[GT](https://sjtueducn-my.sharepoint.com/:x:/g/personal/coulson_tx_sjtu_edu_cn/EaWRh_EMBl5IuaqbAI4S5-cB4MQHydfft-vxgQJgjy8l1Q?e=9lcemg)
 
+#### 1.3.5 2023-05-26
+This time, we ignore the temperature factor and only focus on the object and scene reconstruction. We adopt three different objects: two cups (one water bottle and one mug), a router, and a person. Also, according to the requirements of the LLFF data format, we shot a scene containing several warm parts by moving the camera within the same plane.
 
+We collected the data in room 309, and the palette scaling minimal and maximal temperature of the camera launch file is set to $10$ and $60$ respectively.
 
-
-
+Sequence Name|Collection Date|Total Size|Duration|Feature|Rosbag|GT
+--|:--|:--:|--:|--:|--:|--:
+two_cups|2023-05-13|1.2GB|202s|Rigid_body, 360 deg, multiple views|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/EYe8FQyFQXtDjcumBKbEsvQBZFN7jVb3pyk3SlZCgvh5vA?e=oxJHzs)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/coulson_tx_sjtu_edu_cn/EauFHCqCuC5BmL-PEhau1KwBW9N8ksIrWc_Plxk-ROoxkQ?e=az63h6)
+router|2023-05-13|623.1MB|101s|Rigid_body, < 180deg, multiple views|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/ESXpMwfLEcJMmPFiuUgU6uIBCIvCoPdkFrDti5NndAHMzQ?e=KupHfQ)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/coulson_tx_sjtu_edu_cn/EVATA19de7dMqaK-9b9s4xIBl7pstREJskWdG-aB--5M2g?e=RUCnzI)
+human|2023-05-13|766，5MB|124s|Rigid_body, 180 deg, multiple views|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/EQtuxMl9_WpMo6JEkQQNyOwBzowvT6NYeSmp2DUxpM-F-w?e=QHey46)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/coulson_tx_sjtu_edu_cn/EU18gafbbKVJorJ1LgE1ZNUBG54rDgbNqSDVnW5xWOFy9Q?e=dBpxGN)
+LLFF_scene|2023-05-13|475.9MB|77s|Rigid_body, within a plane|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/ESnlzo4A_hdLsjHXXDW8jAIBaL4buR4-RB87lk27Bsny7Q?e=ZabVfW)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/coulson_tx_sjtu_edu_cn/EYFq8a-qM5FAgrWtbZm63pgB7MeTQPqRxZGtc2JGs8AeFA?e=a1ETMX)
 
 
 
