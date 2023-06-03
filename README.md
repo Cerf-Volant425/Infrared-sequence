@@ -62,7 +62,7 @@ water_scene_360_1|2023-04-26|1.7GB|283s|Very hot|Rigid_body_1, two views|[Rosbag
 water_scene_360_2|2023-04-26|2.2GB|368s|Hot|Rigid_body_1, two views|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/Ed9c-mQ0oFJCnX2WtGfPpSkBdWpe2wbOEQr2Hf7eKBxNOA?e=Hq42ee)|[GT](https://sjtueducn-my.sharepoint.com/:x:/g/personal/coulson_tx_sjtu_edu_cn/ERVJjAF3K8pPoMM5gF_MZCQBXO538gxZY2FIwTsOHVW-Sw?e=5k8o7l)
 water_scene_360_3|2023-04-26|1.9GB|312s|Warm|Rigid_body_1, two views|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/EdwjLhGs8ZBEhpIGfKy8154B4kS5zUJI2V1Eb0h5gziXew?e=EE9Pgd)|[GT](https://sjtueducn-my.sharepoint.com/:x:/g/personal/coulson_tx_sjtu_edu_cn/EaWRh_EMBl5IuaqbAI4S5-cB4MQHydfft-vxgQJgjy8l1Q?e=9lcemg)
 
-#### 1.3.5 2023-05-26
+#### 1.3.5 2023-05-13
 This time, we ignore the temperature factor and only focus on the object and scene reconstruction. We adopt three different objects: two cups (one water bottle and one mug), a router, and a person. Also, according to the requirements of the LLFF data format, we shot a scene containing several warm parts by moving the camera within the same plane.
 
 We collected the data in room 309, and the palette scaling minimal and maximal temperature of the camera launch file is set to $10$ and $60$ respectively.
@@ -74,12 +74,17 @@ router|2023-05-13|623.1MB|101s|Rigid_body, < 180deg, multiple views|[Rosbag](htt
 human|2023-05-13|766，5MB|124s|Rigid_body, 180 deg, multiple views|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/EQtuxMl9_WpMo6JEkQQNyOwBzowvT6NYeSmp2DUxpM-F-w?e=QHey46)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/coulson_tx_sjtu_edu_cn/EU18gafbbKVJorJ1LgE1ZNUBG54rDgbNqSDVnW5xWOFy9Q?e=dBpxGN)
 LLFF_scene|2023-05-13|475.9MB|77s|Rigid_body, within a plane|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/ESnlzo4A_hdLsjHXXDW8jAIBaL4buR4-RB87lk27Bsny7Q?e=ZabVfW)|[GT](https://sjtueducn-my.sharepoint.com/:t:/g/personal/coulson_tx_sjtu_edu_cn/EYFq8a-qM5FAgrWtbZm63pgB7MeTQPqRxZGtc2JGs8AeFA?e=a1ETMX)
 
+#### 1.3.5 2023-05-30
 
+This time, we collected 5 sets of data at the Beidou Industrial Base. In the first two sets of data, we positioned the visible light camera and the infrared camera facing the same direction and maintained their relative positions unchanged. We conducted 360-degree rotational filming around three cups. In the remaining three sets of data, we used the infrared camera to capture data in two different formats: LLFF and nerfpp, for both the cups and people.
 
-
-
-
-
+Sequence Name|Collection Date|Total Size|Duration|Feature|Rosbag|GT
+--|:--|:--:|--:|--:|--:|--:
+three_cups_1|2023-05-30|7.30GB|262s|RGB, IR, 360 deg, single view, single height|[Rosbag](https://sjtueducn-my.sharepoint.com/:f:/g/personal/coulson_tx_sjtu_edu_cn/EleX9nMPq3lDo3ojeDhv7kcB8KANlTNqTwk_1OFjILTdgA?e=whDbJv)|[GT](https://sjtueducn-my.sharepoint.com/:x:/g/personal/coulson_tx_sjtu_edu_cn/EYbvsn8j7hFFhGt9TEYwV1cBYp4gQ0n76qvH_aSkZqaeyA?e=Vnl9nN)
+three_cups_2|2023-05-30|4.09GB|212s|RGB, IR, 360 deg, multi views, single height|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/ETV3N4uS_zNEuetjqHuk650BKlWMJZzdF8yfRYo7LjxqqQ?e=68qaOd)|[GT](https://sjtueducn-my.sharepoint.com/:x:/g/personal/coulson_tx_sjtu_edu_cn/EdR7js7Fl_9Ipef2Ul-bPacB68MzkBTUBMzpbTgbe57ZLg?e=SXeoBr)
+three_cups_3|2023-05-30|812MB|123s|IR, 360 deg, multi views, multi heights|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/EYgEjAjDoEJIh78Sbr18m98BQmwL6eTUYaeRHfqLw8SsYQ?e=d9Z7pf)|[GT](https://sjtueducn-my.sharepoint.com/:x:/g/personal/coulson_tx_sjtu_edu_cn/EWu2uQ6b5HtOsmZ5-OCtskEBY4g5TD6TVWNQG0wg-3DCjQ?e=AqAXjT)
+three_cups_4|2023-05-30|752MB|87s|IR, LLFF, within a plane|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/EezJi94r68ZAmAjey9mJxCcBbh8NNffcynNE-JxePUvXMw?e=7eFeF7)|[GT](https://sjtueducn-my.sharepoint.com/:x:/g/personal/coulson_tx_sjtu_edu_cn/EVtL7a6eXQ9IpgHD3DL6ArcBA5N0HWDJWtmDvtj94H46TA?e=hKDPQg)
+person|2023-05-30|572MB|56s|IR, LLFF, within a plane|[Rosbag](https://sjtueducn-my.sharepoint.com/:u:/g/personal/coulson_tx_sjtu_edu_cn/ETfphfFTdwFEirpBF3ZIErEBwbeCDcvoYSEq6YMxwLldog?e=GjOz24)|[GT](https://sjtueducn-my.sharepoint.com/:x:/g/personal/coulson_tx_sjtu_edu_cn/EVJHGpzwCptJuOtAgaNbv8gBodLs-5qgJ6MS53qpuHTzuw?e=tkfLFb)
 
 
 
